@@ -1,0 +1,35 @@
+<md-card class="material-table">
+	<div class="table-header">
+		<span class="title">Bestiary</span>
+		<div class="actions">
+
+		</div>
+	</div>
+	<table class="material-table" ng-cloak ng-hide="ctrl.loading">
+		<tr>
+			<th ng-repeat="data in ctrl.header" ng-click="ctrl.sort(data['name'])">
+				{{data["name"]}}
+				<i class="material-icons" ng-show="ctrl.sortName == data['name'] && !ctrl.sortDesc">keyboard_arrow_down</i>
+				<i class="material-icons" ng-show="ctrl.sortName == data['name'] && ctrl.sortDesc">keyboard_arrow_up</i>
+			</th>
+		</tr>
+		<tr ng-repeat="row in ctrl.data | orderBy:ctrl.sortName:ctrl.sortDesc track by $index" ng-show="ctrl.showEntry($index)">
+			<td flex ng-repeat="data in row">{{data}}</td>
+		</tr>
+	</table>
+	<div class="table-footer">
+		<div class="pageination" layout="row">
+			<md-input-container>
+				<label>Display</label>
+				<md-select ng-model="ctrl.pageValue" ng-change="ctrl.updatePages()">
+					<md-option ng-repeat="pages in ctrl.pageSizes" ng-value="pages">{{pages}}</md-option>
+				</md-select>
+			</md-input-container>
+			<p>{{ctrl.lowerEntry}} - {{ctrl.higherEntry}} of {{ctrl.data.length}}</p>
+			<div class="page-controls">
+				<i class="material-icons" ng-click="ctrl.previousPage()">keyboard_arrow_left</i>
+				<i class="material-icons" ng-click="ctrl.nextPage()">keyboard_arrow_right</i>
+			</div>
+		</div>
+	</div>
+</md-card>
