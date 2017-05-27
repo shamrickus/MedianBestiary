@@ -29,7 +29,6 @@ md-card.material-table {
 				white-space: nowrap;
 				padding: 0;
 				height: 56px;
-				padding-left: 56px;
 				vertical-align: middle;
 				outline: none !important;
 				border-bottom: solid 1px #DDDDDD;
@@ -40,6 +39,16 @@ md-card.material-table {
 
 				&:hover {
 					color: #111;
+				}
+
+				&.header {
+					position: relative;
+
+					div.switchLeft {
+					}
+
+					div.switchRight {
+					}
 				}
 			}
 			td {
