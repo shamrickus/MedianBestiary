@@ -9,11 +9,9 @@
 		<tr>
 			<th ng-repeat="data in ctrl.header" ng-click="ctrl.sort(data['name'])" class="header">
 				<div layout="row">
-					<div class="switch" ng-if="!$first">H</div>
 					{{data["name"]}}
 					<i class="material-icons" ng-show="ctrl.sortName == data['name'] && !ctrl.sortDesc">keyboard_arrow_down</i>
 					<i class="material-icons" ng-show="ctrl.sortName == data['name'] && ctrl.sortDesc">keyboard_arrow_up</i>
-					<div class="switch" ng-if="!$last">L</div>
 				</div>
 			</th>
 		</tr>
