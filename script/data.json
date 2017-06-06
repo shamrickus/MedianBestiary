@@ -2,57 +2,75 @@
     [
         {
             "display": true,
-            "name": "Name",
+            "header": "Name",
             "sortable": true,
-            "searchable": true
+            "searchable": true,
+            "resizable": true,
+            "order": 0
         },
         {
             "display": true,
-            "name": "Immunity",
+            "order": 4,
+            "header": "Immunity",
             "sortable": true,
-            "searchable": true
+            "searchable": true,
+            "resizable": true
         },
         {
             "display": true,
-            "name": "Location",
+            "header": "Location",
             "sortable": true,
-            "searchable": true
+            "searchable": true,
+            "order": 2,
+            "resizable": true
         },
         {
             "display": true,
-            "name": "Skills",
+            "header": "Skills",
             "sortable": true,
-            "searchable": true
+            "searchable": true,
+            "order": 3,
+            "resizable": true
+        },
+        {
+            "order": 5,
+            "display": true,
+            "header": "Evade",
+            "sortable": true,
+            "searchable": true,
+            "resizable": true
         },
         {
             "display": true,
-            "name": "Evade",
+            "header": "Info",
             "sortable": true,
-            "searchable": true
+            "searchable": true,
+            "order": 6,
+            "resizable": true
         },
         {
             "display": true,
-            "name": "Info",
+            "header": "Trivia",
             "sortable": true,
-            "searchable": true
-        },
-        {
-            "display": true,
-            "name": "Trivia",
-            "sortable": true,
-            "searchable": true
+            "searchable": true,
+            "order": 7,
+            "resizable": true
         },
         {
             "display": false,
-            "name": "monsterType",
+            "header": "monsterType",
             "sortable": true,
-            "searchable": true
+            "searchable": true,
+            "order": 8,
+            "resizable": true
         },
         {
-            "display": false,
-            "name": "pictureName",
+            "display": true,
+            "header": "pictureName",
             "sortable": true,
-            "searchable": true
+            "searchable": true,
+            "order": 1,
+            "resizable": true
         }
     ],
     [

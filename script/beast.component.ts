@@ -19,6 +19,12 @@ namespace beast {
 			this.loadData();
 		}
 
+		getIndexByKey(key) {
+			for(var i = 0; i < this.tableEntry.length; ++i) {
+				if(key == this.tableEntry[i]["Name"]) return i;
+			}
+		}
+
 		loadData() {
 			let self = this;
 			this.loading = true;
@@ -32,16 +38,32 @@ namespace beast {
 						sortable: headerData.sortable,
 						searchable: headerData.searchable,
 						display: headerData.display,
+						order: headerData.order,
 						width: 250
 					});
-
 				}
 				for(var j = 0; j< data[1].length; ++j) {
 					var td = data[1][j];
 					self.tableEntry.push(td);
 				}
 
-				self.loading = false;
+				self.tableData.sort(function(a, b) {
+					if(a.order < b.order) return -1;
+					if(a.order > b.order) return 1;
+					return 0;
+				});
+
+				self.$http.get("script/images.json").then(function(data: any){
+					data = data.data;
+					for(var i = 0; i < data.length; ++i) {
+						var row = data[i];
+						var index = self.getIndexByKey(row[0]);
+						if(index == null) continue;
+						self.tableEntry[index]["pictureName"] = row[2] + "\\" + row[1];
+					}
+					self.loading = false;
+				});
+
 			});
 		}
 	}

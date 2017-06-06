@@ -4,11 +4,11 @@
 	</div>
 	<table class="table-data" ng-cloak>
 		<thead>
-			<tr class="head" id="tableHeader" sticky use-placeholder>
+			<tr class="head" id="tableHeader" sticky>
 				<th ng-repeat="header in tableData" class="headerRow noselect" ng-mouseenter="options=true" ng-mouseleave="options=false" column-id="{{$index}}" ng-click="swapOrder($index)" ng-style="getWidth($index)">
-					<div layout="row">
+					<div layout="row" ng-if="header.display == true">
 						{{header.header}}
-						<i class="material-icons desc" ng-cloak ng-show="sortIndex == $index || options">{{!sortDesc || (options && sortIndex != $index) ? 'keyboard_arrow_down' : 'keyboard_arrow_up'}}</i>
+						<i class="material-icons desc" ng-cloak ng-if="sortIndex == $index || options">{{!sortDesc || (options && sortIndex != $index) ? 'keyboard_arrow_down' : 'keyboard_arrow_up'}}</i>
 						<div class="rightHandle" width-slider current-width="header.width" ng-click="stopProp($event)" ng-if="!$last"></div>
 					</div>
 				</th>
@@ -16,9 +16,7 @@
 		</thead>
 		<tbody>
 			<tr ng-repeat="value in tableEntry | limitTo:upperPage:lowerPage track by $index" class="body">
-				<td ng-style="getWidth($index)" ng-repeat="val in getEntry(value) track by $index">
-					{{val}}
-				</td>
+				<td ng-repeat="val in getEntry(value) track by $index" ng-bind="val" ng-style="getWidth($index)"></td>
 			</tr>
 		</tbody>
 	</table>

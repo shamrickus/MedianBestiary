@@ -9,9 +9,11 @@ namespace directive.resizeTable {
 		sortable: boolean;
 		searchable: boolean;
 		display: boolean;
+		order: number;
 
 		width: number;
 	}
+
 
 	class resizeTable implements ng.IDirective{
 		headerText: string;
@@ -22,8 +24,8 @@ namespace directive.resizeTable {
 		templateUrl: string = "script/directives/resizeTable.tmpl.html";
 		replace: boolean = true;
 		scope: {
-			headerData: '=',
-			rowData: '=',
+			headerData: '<',
+			rowData: '<',
 			header: "@",
 		};
 		link: any;
@@ -44,9 +46,27 @@ namespace directive.resizeTable {
 				scope.lowerPage = 1;
 				scope.upperPage = scope.pageCount;
 
+				scope.getIndexFromKey = function(key) {
+					for(var j = 0; j < scope.tableData.length; ++j) {
+						var data = scope.tableData[j];
+						if(data.header == key) return j;
+					}
+				}
+
 				scope.getEntry = function(value) {
-					var o = Object.keys(value).map(function(key){ return value[key]; });
-					return o;
+					var keys = Object.keys(value);
+					var dict = {};
+					var ret = [];
+					for(var i = 0; i < keys.length; ++i) {
+						var key = keys[i];
+						var order = scope.tableData[scope.getIndexFromKey(key)].order;
+						dict[order] = value[key]; 
+					}
+
+					for (var i = 0; i < scope.tableData.length; ++i) {
+						ret.push(dict[i]);
+					}
+					return ret;
 				}
 
 				scope.swapOrder = function(index: number) {
@@ -57,15 +77,14 @@ namespace directive.resizeTable {
 				}
 
 				scope.updateOrder = function() {
-					scope.tableEntry.sort(scope.sortEntry);
-				}
-
-				scope.sortEntry = function(a:IResizeTableEntry, b:IResizeTableEntry) {
-					var aData = a[scope.tableData[scope.sortIndex].header];
-					var bData = b[scope.tableData[scope.sortIndex].header];
-					if(aData < bData) return -1 * scope.sortDesc ? 1 : -1;
-					if(aData > bData) return 1 * scope.sortDesc ? 1 : -1;
-					return 0 * scope.sortDesc ? 1 : -1;
+					scope.tableEntry.sort(function(a:IResizeTableEntry, b:IResizeTableEntry) {
+						var aData = a[scope.tableData[scope.sortIndex].header];
+						var bData = b[scope.tableData[scope.sortIndex].header];
+						var flip = scope.sortDesc ? 1 : -1;
+						if(aData < bData) return -1 * flip;
+						if(aData > bData) return 1 * flip;
+						return 0 * flip;
+					});
 				}
 
 				scope.getWidth = function(index: number){
@@ -145,13 +164,13 @@ namespace directive.resizeTable {
 						self.left = element.position().left;
 
 						$('td').each(function(){$(this).addClass('noselect')});
-						$timeout(mousemove, 2);
+						$timeout(mousemove, 16);
 						$document.on('mousemove', eMousemove);
 						$document.on('mouseup', mouseup);
 					});
 
 					function mousemove() {
-						if(self.down) $timeout(mousemove, 2);
+						if(self.down) $timeout(mousemove, 16);
 						if(self.x == null) return;
 						var delta = self.x - self.oldX;
 						self.oldX = self.x;
@@ -169,7 +188,6 @@ namespace directive.resizeTable {
 						self.oldX = null;
 						$document.unbind('mousemove', eMousemove);
 						$document.unbind('mouseup', mouseup);
-
 					}
 				}
 			}

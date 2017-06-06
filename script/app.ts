@@ -9,26 +9,38 @@
 			link: function(scope: ng.IScope, element: JQuery, attrs: ng.IAttributes){
 				element.ready(function(){
 					var $win = angular.element($window);
-					if (scope._stickyElements === undefined) {
+					$win.bind("scroll", function(e) {
+						var top = element.scrollTop() + element.height();
+						var winTop = $win.scrollTop();
+						if(top <= winTop) {
+							element.addClass("sticky");
+						}
+						else {
+							element.removeClass("sticky");
+						}
+					})
+					/*if (scope._stickyElements === undefined) {
 						scope._stickyElements = [];
 
 						$win.bind("scroll", function(e) {
 							var pos = $win.scrollTop();
 							for (var i=0; i<scope._stickyElements.length; i++) {
 								var item = scope._stickyElements[i];
-								var left = $("#tableHeader").offset().left;
 
 								//Height check
 								if (!item.isStuck && pos > item.start) {
+									var left = item.element.css("left");
+									var width = item.element.css("width");
 									item.element.addClass("stuck");
 									item.isStuck = true;
 									if (item.placeholder) {
 										item.placeholder = angular.element("<div></div>")
 												.css({height: item.element.outerHeight() + "px"
-													, left: item.left})
+													, left: item.left
+													, width: width})
 												.insertBefore(item.element);
 									}
-									item.element.css({'left': left});
+									item.element.css({'left': left, 'width': width});
 								}
 								else if (item.isStuck && pos <= item.start) {
 									item.element.css({'left': 0})
@@ -69,7 +81,7 @@
 					}
 					var item = init();
 
-					scope._stickyElements.push(item);
+					scope._stickyElements.push(item);*/
 				});
 
 			}
