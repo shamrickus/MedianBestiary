@@ -135,7 +135,7 @@ namespace directive.resizeTable {
 				}
 
 				scope.getLink = function(val: string) {
-					return val.replace("monsters", "images");
+					return val.replace("monsters", "images") + ".gif";
 				}
 
 				scope.hasPreviousPage = function() {
