@@ -108,12 +108,30 @@ namespace directive.resizeTable {
 					}
 				}
 
-				scope.getbbCode = function(index) {
+				scope.getGifCode = function(val) {
+					let code = val.split("\\");
+					return "[mon]" + code[code.length - 1] + "[/mon]";
+				}
+
+				scope.getImageCode = function(index) {
 					return "[mon]" + scope.tableEntry[index].Name + "[/mon]";
 				}
 
 				scope.checkImage = function(val: string) {
 					return val.indexOf("\\") > -1;
+				}
+
+				scope.formatValue = function(val: string, index: number, parentIndex: number) {
+					if (scope.tableData[scope.getIndexFromKey("pictureName")].order == index) { 
+						return scope.getImageCode(parentIndex) + scope.getGifCode(val);
+					}
+					else if(scope.tableData[scope.getIndexFromKey("Location")].order == index) {
+						return val.split(",").join("<br />");
+					}
+					else if(scope.tableData[scope.getIndexFromKey("Info")].order == index) {
+						return val.split(",").join("<br />");
+					}
+					else return val;
 				}
 
 				scope.getLink = function(val: string) {

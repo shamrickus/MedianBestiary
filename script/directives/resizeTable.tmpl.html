@@ -7,8 +7,8 @@
 			<tr class="head" id="tableHeader">
 				<th ng-repeat="header in tableData" class="headerRow noselect" ng-if="header.display == true" ng-mouseenter="options=true" ng-mouseleave="options=false" column-id="{{$index}}" ng-click="swapOrder($index)" ng-style="getWidth($index)">
 					<div layout="row">
-						<span ng-bind="header.friendly ? header.firendly : header.header"></span>
-						<i class="material-icons desc" ng-cloak ng-if="sortIndex == $index || options">{{!sortDesc || (options && sortIndex != $index) ? 'keyboard_arrow_down' : 'keyboard_arrow_up'}}</i>
+						<span ng-bind="header.friendly != null ? header.friendly : header.header"></span>
+						<i class="material-icons desc" ng-cloak ng-show="sortIndex == $index || options">{{!sortDesc || (options && sortIndex != $index) ? 'keyboard_arrow_down' : 'keyboard_arrow_up'}}</i>
 						<div class="rightHandle" width-slider current-width="header.width" ng-click="stopProp($event)" ng-if="!$last"></div>
 					</div>
 				</th>
@@ -20,9 +20,8 @@
 					<div ng-if="checkImage(val)">
 						<img  ng-src="{{getLink(val)}}">
 						<br />
-						<span ng-bind="getbbCode($parent.$index)"></span>
 					</div>
-					<span ng-if="!checkImage(val)" ng-bind="val"></span>
+					<span ng-bind-html="formatValue(val, $index, $parent.$index)"></span>
 				</td>
 			</tr>
 		</tbody>

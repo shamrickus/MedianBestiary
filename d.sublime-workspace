@@ -1,0 +1,3339 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Timee",
+				"TimeTracker\tparameter"
+			],
+			[
+				"IR",
+				"IResizeTableEntry\tinterface"
+			],
+			[
+				"IResiz",
+				"IResizeTableEntry\tinterface"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"resize",
+				"resizeTable\tclass"
+			],
+			[
+				"resi",
+				"resizeTableDirective\tclass"
+			],
+			[
+				"watc",
+				"watchTableChanges"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"IHTtp",
+				"IHttpProvider\tinterface"
+			],
+			[
+				"beast",
+				"beastController\tclass"
+			],
+			[
+				"getRow",
+				"getRowByName"
+			],
+			[
+				"pri",
+				"priority"
+			],
+			[
+				"dynam",
+				"dynamicsCase"
+			],
+			[
+				"Pack",
+				"PacketId"
+			],
+			[
+				"Ordere",
+				"OrderedDate"
+			],
+			[
+				"Status",
+				"StatusCodeId"
+			],
+			[
+				"Issu",
+				"IssuanceUnitOfMeasureId"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "script/beast.component.ts",
+			"settings":
+			{
+				"buffer_size": 1473,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/crusherexe/Desktop/dev/bootstrap/README.md",
+			"settings":
+			{
+				"buffer_size": 509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "script/directives/performance.tmpl.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "script/app.ts",
+			"settings":
+			{
+				"buffer_size": 2568,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/directives/resizeTable.scss",
+			"settings":
+			{
+				"buffer_size": 2516,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "script/directives/performance.directive.ts",
+			"settings":
+			{
+				"buffer_size": 978,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/app.scss",
+			"settings":
+			{
+				"buffer_size": 197,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "script/directives/resizeTable.tmpl.html",
+			"settings":
+			{
+				"buffer_size": 1712,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "script/directives/resizeTable.directive.ts",
+			"settings":
+			{
+				"buffer_size": 4583,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Gulp",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Gulp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/untitled.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Gulp",
+					""
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				]
+			],
+			[
+				"Gulp",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Gulp",
+					""
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Gulp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/untitled.sublime-build",
+					""
+				]
+			],
+			[
+				"Gulp",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Gulp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/untitled.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Gulp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/untitled.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/findev.sublime-build",
+					""
+				],
+				[
+					"Packages/User/fintest.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Gulp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/local.sublime-build",
+					""
+				],
+				[
+					"Packages/User/mssql.sublime-build",
+					""
+				],
+				[
+					"Packages/User/untitled.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/findev.sublime-build",
+					""
+				],
+				[
+					"Packages/User/fintest.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Gulp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/local.sublime-build",
+					""
+				],
+				[
+					"Packages/User/mssql.sublime-build",
+					""
+				],
+				[
+					"Packages/User/untitled.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/local.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 48.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"pip",
+				"Package Control: Install Package"
+			],
+			[
+				"gulp",
+				"Gulp"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"json",
+				"Indent JSON"
+			],
+			[
+				"python3",
+				"Set Syntax: Python3"
+			],
+			[
+				"set synt python",
+				"Set Syntax: Python"
+			],
+			[
+				"synt xml",
+				"Set Syntax: XML"
+			],
+			[
+				"set sy pyt",
+				"Set Syntax: Python3"
+			],
+			[
+				"prp",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"diffy",
+				"Diffy Compare"
+			],
+			[
+				"toggle side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggle sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack inage",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle si",
+				"View: Toggle Side Bar"
+			],
+			[
+				"emmet ex",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"emmet exp",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"j",
+				"Emmet: Split\\Join Tag"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Diffy Compare"
+			],
+			[
+				"sort line",
+				"Sort Lines"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Set Syntax: Python3"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"python st",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"toglge side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"pack insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack list",
+				"Package Control: List Packages"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Quick Commit"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git commit ",
+				"Git: Commit"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git add curr",
+				"Git: Add Current File"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"GIT STATUS",
+				"Git: Status"
+			],
+			[
+				"PACK\t",
+				"Package Control: Install Package"
+			],
+			[
+				"PACK INST",
+				"Package Control: Install Package"
+			],
+			[
+				"PACK INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 309.0,
+		"history":
+		[
+			"\"asdf\" * 5",
+			"view.run_command(\"output\", \"asdf\")",
+			"view.run_command(\"User.PrintLine\", \"adsf\")",
+			"view.run_command(\"User.PrintLine\")",
+			"view.run_command(\"Output\", \"test\")",
+			"view.run_command(\"Output\")",
+			"view.run_command(\"PrintLine\")",
+			"view.run_command(\"PrintLine\", \"asdf\")",
+			"view.run_command(\"PrintLine\", \"asdf\"0)",
+			"view.run_command(\"output\", \"asdf\")",
+			"view.run_command(\"output\")",
+			"PrintLine.py"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/crusherexe/Desktop/dev/diablo"
+	],
+	"file_history":
+	[
+		"/C/Users/crusherexe/Desktop/dev/diablo/style/directives/resizeTable.css",
+		"/C/Users/crusherexe/Desktop/dev/diablo/script/beast.component.ts",
+		"/C/Users/crusherexe/Desktop/dev/diablo/script/beast.component.js",
+		"/C/Users/crusherexe/Desktop/dev/diablo/script/directives/resizeTable.directive.ts",
+		"/C/Users/crusherexe/AppData/Roaming/Sublime Text 3/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/C/Users/crusherexe/AppData/Roaming/Sublime Text 3/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/C/Users/crusherexe/AppData/Roaming/Sublime Text 3/Packages/SublimeOnSaveBuild/README.md",
+		"/C/Users/crusherexe/AppData/Roaming/Sublime Text 3/Packages/User/gulp.sublime-build",
+		"/C/Users/crusherexe/Desktop/dev/diablo/script/beast.css",
+		"/C/Users/crusherexe/Desktop/dev/diablo/package.json",
+		"/C/Users/crusherexe/Desktop/dev/diablo/script/beast.scss",
+		"/C/Users/crusherexe/Desktop/dev/diablo/style/app.scss",
+		"/C/Users/crusherexe/Desktop/dev/diablo/node_modules/angular-table-resize/dist/angular-table-resize.js",
+		"/C/Users/crusherexe/Desktop/dev/diablo/script/app.ts",
+		"/C/Users/crusherexe/Desktop/dev/diablo/beast.html",
+		"/C/Users/crusherexe/Desktop/dev/diablo/beast.js",
+		"/C/Users/crusherexe/Desktop/dev/diablo/script/data.json",
+		"/C/Users/crusherexe/Desktop/dev/Ty/public/script/calendar/calendar.component.ts",
+		"/C/Users/crusherexe/Desktop/dev/Ty/public/script/app.ts",
+		"/C/Users/crusherexe/Desktop/dev/Ty/public/script/calendar/calendar.tmpl.html",
+		"/C/Users/crusherexe/Desktop/dev/diablo/data.js",
+		"/C/Users/crusherexe/Desktop/dev/Ty/public/script/home/home.component.ts",
+		"/C/Users/crusherexe/Downloads/wia-on-twain-master/README.md",
+		"/E/Incode10/Financials/UnitTests/Incode.BusinessModel.UnitTests/GeneralLedger/Verifiers/GLJournalTemplateVertifierTests.cs",
+		"/C/Users/crusherexe/Google Drive/Tyler/yesterday.txt",
+		"/C/Users/crusherexe/Downloads/Servers.csv",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/settings.json",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/config.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/classes/userQuery.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/test.py",
+		"/C/Users/crusherexe/Downloads/notes",
+		"/E/LicenseKey.xml",
+		"/C/Program Files/Tyler Technologies/IMS/Resources/Bootstrap/Incode V.X",
+		"/C/Program Files/Tyler Technologies/Incode V.X-CodeSetup/Shell.exe.config",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/.gitignore",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/classes/sharePoint.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/output.txt",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/helpers.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/classes/jira.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/classes/__init__.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/__init__.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/Dynamics/__main__.py",
+		"/C/Users/crusherexe/Google Drive/Tyler/Tickets/notes",
+		"/C/Users/crusherexe/Downloads/dwt-3.0.1-cp27-win_x86/README.md",
+		"/E/output.txt",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/DB/project_5/project_5.py",
+		"/C/Program Files (x86)/FastKeys/Data/Settings.fdb",
+		"/C/Users/crusherexe/Desktop/Default.rdp",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/MumbleChatBot/mumble_client.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/MumbleChatBot/utils.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/MumbleChatBot/classes/User.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/MumbleChatBot/classes/Message.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/MumbleChatBot/classes/Channel.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/MumbleChatBot/classes/__init__.py",
+		"/C/Users/crusherexe/Desktop/ownCloud/programming/python/MumbleChatBot/classes/DTime.py",
+		"/C/Users/crusherexe/Downloads/crm/classes/document.py",
+		"/C/Users/crusherexe/Downloads/crm/settings.json",
+		"/C/Users/crusherexe/Downloads/crm/classes/sharePoint.py",
+		"/C/Users/crusherexe/Downloads/crm/classes/dynamicsbase.py",
+		"/C/Users/crusherexe/Downloads/crm/classes/account.py",
+		"/C/Users/crusherexe/Downloads/crm/classes/case.py",
+		"/C/Users/crusherexe/Downloads/crm/classes/notes.py",
+		"/C/Users/crusherexe/Downloads/crm/classes/base.py",
+		"/C/Users/crusherexe/Downloads/crm/classes/jira.py",
+		"/C/Users/crusherexe/Downloads/crm/test.py",
+		"/C/Users/crusherexe/Desktop/mabi/requirements.py",
+		"/C/Users/crusherexe/Desktop/mabi/scraper.py",
+		"/C/Users/crusherexe/Downloads/$value",
+		"/C/Users/crusherexe/Downloads/crm/__main__.py",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/PrintLine.py",
+		"/C/Users/steve.hamrick/Desktop/crm/helpers.py",
+		"/C/Users/steve.hamrick/Desktop/crm/__main__.py",
+		"/C/Users/steve.hamrick/Desktop/crm/__init__.py",
+		"/C/Users/steve.hamrick/Desktop/crm/settings.json",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/FormatHTML.py",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/generateGetterSetterTypeScript.sublime-macro",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/SQLTools.sublime-settings",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.last-run",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/findev.sublime-build",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/fintest.sublime-build",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/Gulp.sublime-build",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/local.sublime-build",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/mssql.sublime-build",
+		"/C/Users/steve.hamrick/AppData/Roaming/Sublime Text 3/Packages/User/untitled.sublime-build",
+		"/C/Users/steve.hamrick/AppData/Roaming/PhraseExpress/pexdesktop.xml",
+		"/C/Users/steve.hamrick/AppData/Roaming/PhraseExpress/config.xml",
+		"/C/Users/steve.hamrick/Desktop/crm/classes/base.py",
+		"/C/Users/steve.hamrick/Google Drive/Tyler/Tickets/7667/notes",
+		"/C/Users/steve.hamrick/Google Drive/phrases.pxp",
+		"/C/Users/steve.hamrick/Desktop/potd/potd.bat",
+		"/C/Users/steve.hamrick/Desktop/potd/pwd.txt",
+		"/C/Users/steve.hamrick/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/UCBP6ACE/Sites_and_their_MHS_servers.txt",
+		"/C/Users/steve.hamrick/Desktop/crm/classes/__init__.py",
+		"/C/Users/steve.hamrick/Google Drive/Tyler/Tickets/7659/notes",
+		"/C/Users/steve.hamrick/Desktop/crm/install.py",
+		"/C/_/Incode10-fin/Financials/.db/QBE/fix.py",
+		"/C/_/Incode10-20171bug/Financials/.db/QBE/AccountsPayable/UserDefinedFunctions/VendorSummaryReport.imssql",
+		"/C/_/Incode10-20171bug/Financials/.db/QBE/GeneralLedger/UserDefinedFunctions/AccountSummaryForPeriodAmount.imssql",
+		"/C/_/Incode10-20171bug/Financials/.db/QBE/Purchasing/UserDefinedFunctions/PurchaseOrderHistoryWithAsOf.imssql",
+		"/C/_/Incode10-20171bug/Financials/.db/QBE/Purchasing/UserDefinedFunctions/PurchaseOrderHistoryItemWithAsOf.imssql",
+		"/C/_/Incode10-20171bug/Financials/.db/QBE/Purchasing/UserDefinedFunctions/PurchaseOrderHistoryItemWithAsOfCombined.imssql",
+		"/C/_/Incode10-20171bug/Financials/.db/QBE/Purchasing/UserDefinedFunctions/PurchaseOrderHistoryItemWithAsOfWrapper.imssql",
+		"/C/_/Incode10-20171bug/Financials/.db/QBE/Purchasing/UserDefinedFunctions/PurchaseOrderHistoryStatusWithAsOf.imssql",
+		"/C/_/Incode10-20171bug/Financials/.db/QBE/Purchasing/UserDefinedFunctions/PurchaseOrderHistoryWithAsOfCombined.imssql",
+		"/C/_/Incode10-20171bug/Financials/.db/QBE/Purchasing/UserDefinedFunctions/PurchaseOrderHistoryWithAsOfWrapper.imssql",
+		"/C/Users/steve.hamrick/Desktop/msuiieula.txt",
+		"/C/Users/steve.hamrick/Downloads/new.txt",
+		"/C/Users/steve.hamrick/Desktop/electron-quick-start/test.py",
+		"/C/_/Incode10-fin/Financials/.db/QBE/setup.py",
+		"/C/_/Incode10-fin/Financials/.db/QBE/ScanQBEs/source.py",
+		"/C/QuickRelease/FinancialsDeployed/Shell.exe.config",
+		"/C/Users/steve.hamrick/Desktop/General Ledger.My Monthly Activity Report.xml",
+		"/C/Users/steve.hamrick/Desktop/General Ledger.Monthly Activity Report.xml",
+		"/C/_/Incode10-fin/Financials/.db/QBE/ScanQBEs/_ssl.pyd",
+		"/C/_/Incode10-fin/Financials/.db/QBE/dist/fix.py",
+		"/C/ProgramData/chocolatey/lib/python3/tools/Lib/tokenize.py",
+		"/C/ProgramData/chocolatey/lib/python3/tools/Lib/tarfile.py",
+		"/C/ProgramData/chocolatey/lib/python3/tools/Lib/struct.py",
+		"/C/ProgramData/chocolatey/lib/python3/tools/Lib/ssl.py",
+		"/C/_/Incode10-fin/Financials/.db/QBE/AccountsPayable/StoredProcedures/APCommodityCodeCheckAllowDelete.imssql",
+		"/C/ProgramData/chocolatey/lib/python3/tools/Lib/site-packages/UNKNOWN-0.0.0-py3.5.egg-info",
+		"/C/Users/steve.hamrick/Desktop/test.py",
+		"/C/Users/steve.hamrick/Downloads/ODataV4Metadata.xml",
+		"/C/Users/steve.hamrick/Documents/SQL Server Management Studio/ZSQL/Report_QBE_Usage.sql",
+		"/C/_/COA/API/segmentations/segmentation.js"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"",
+			"API",
+			"",
+			"app.scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scope.sortDesc ? 1 : -1",
+			"$win.scrollTop()",
+			"absolute",
+			"ng-style",
+			"removeClass",
+			"left",
+			"item.element.css(\"width\")",
+			"2",
+			"performance",
+			"resizeTable",
+			"data.js",
+			"data.j",
+			"index",
+			"number",
+			"index",
+			"16",
+			"4",
+			"addClass",
+			"8",
+			"false",
+			": ",
+			"header",
+			"function",
+			"value",
+			"16",
+			"10",
+			"2",
+			"10",
+			"oldX",
+			"pageX",
+			"console.log",
+			"() {",
+			"nextPage",
+			"recalculatePageValues",
+			"ctrl",
+			"left",
+			"colOffset",
+			"sticky",
+			"function",
+			"ctrl",
+			"self",
+			"self.tableEntry",
+			"self",
+			"self.tableData",
+			"self",
+			"self.headerText",
+			"scope",
+			"self",
+			"scope",
+			"width",
+			"self",
+			"scope.currentWidth",
+			"attrs",
+			"mouse",
+			"width",
+			"resizeTable",
+			"\"206px\"",
+			"}}\n",
+			"self",
+			"ctrl",
+			"value",
+			"key",
+			"value",
+			"entry",
+			"this",
+			"self",
+			"scope",
+			"this",
+			"ctrl..*\\(\\)",
+			"tableEntry",
+			"\"searchable\": true",
+			"name\":",
+			"data",
+			"switch",
+			"   ",
+			"    ",
+			"%",
+			"WidthEvent",
+			"onFirstDrag",
+			"width",
+			"directive",
+			"controller",
+			"scope",
+			"getResizer",
+			"resizer",
+			"href",
+			"material",
+			"node_modules",
+			"  ",
+			"material",
+			"$scope",
+			";\n",
+			"\t\t\t\n",
+			"pageNumber",
+			"keyboard_arrow_up",
+			" ",
+			"width",
+			"display",
+			"higherEntry",
+			"ctrl",
+			"entry",
+			"length",
+			"number",
+			"friendlyName",
+			"getRow",
+			"loaded",
+			"true",
+			"false",
+			"loaded",
+			"this",
+			"data",
+			"col",
+			"$scope",
+			"friendlyName",
+			"header",
+			"self",
+			"dataResult",
+			"TableData",
+			"HeaderData",
+			"IHttpProvider",
+			"IHttpService",
+			"\\,\\n\\n",
+			"  {\n    \"Name\": \"\",\n    \"Immunity\": \"\",\n    \"Location\": \"\",\n    \"Skills\": \"\",\n    \"Evade\": \"\",\n    \"Info\": \"\",\n    \"Trivia\": \"\",\n    \"monsterType\": \"\",\n    \"pictureName\": \"\"\n  },",
+			"            console.log($scope.data);",
+			"key",
+			"name",
+			"true",
+			"getData"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\t",
+			"\\,\\n",
+			"",
+			"\\t",
+			"\\\"",
+			"ng",
+			"div.bottom\\1",
+			"div.top\\1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "script/beast.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1009,
+								1010
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/crusherexe/Desktop/dev/bootstrap/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "script/directives/performance.tmpl.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "script/app.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								545,
+								545
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "style/directives/resizeTable.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2516,
+						"regions":
+						{
+							"gutter_color_108":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										190,
+										210
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1257":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1432,
+										1465
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1258":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1432,
+										1465
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1268":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1466,
+										1502
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1277":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1432,
+										1465
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_130":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										190,
+										210
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1305":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1503,
+										1520
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1306":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1506,
+										1523
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_131":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										190,
+										210
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1311":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1466,
+										1502
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1328":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1503,
+										1520
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1332":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1466,
+										1502
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1348":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1503,
+										1520
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1373":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1466,
+										1502
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1390":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1466,
+										1502
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1408":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(256, 256, 256, 0.1).png",
+								"regions":
+								[
+									[
+										1563,
+										1614
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1415":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1432,
+										1465
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1416":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1432,
+										1465
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1427":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1503,
+										1520
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1429":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(256, 256, 256, 0.1).png",
+								"regions":
+								[
+									[
+										1563,
+										1614
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1430":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1503,
+										1520
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1432":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1432,
+										1465
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1443":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#FFFFFF.png",
+								"regions":
+								[
+									[
+										1641,
+										1664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1449":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1466,
+										1502
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1450":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1466,
+										1502
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1452":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1432,
+										1465
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1454":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1432,
+										1465
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1466":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1466,
+										1502
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1470":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1432,
+										1465
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1483":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1432,
+										1465
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1486":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1503,
+										1520
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1487":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1503,
+										1520
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1488":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1466,
+										1502
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1490":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(256, 256, 256, 0.1).png",
+								"regions":
+								[
+									[
+										1563,
+										1614
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1503":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1503,
+										1520
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1507":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#FFFFFF.png",
+								"regions":
+								[
+									[
+										1641,
+										1664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1517":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1466,
+										1502
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1525":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1503,
+										1520
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1541":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1503,
+										1520
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1546":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(256, 256, 256, 0.1).png",
+								"regions":
+								[
+									[
+										1563,
+										1614
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1547":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(256, 256, 256, 0.1).png",
+								"regions":
+								[
+									[
+										1563,
+										1614
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1548":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#FFFFFF.png",
+								"regions":
+								[
+									[
+										1641,
+										1664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1554":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#666B85.png",
+								"regions":
+								[
+									[
+										1503,
+										1520
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1563":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(256, 256, 256, 0.1).png",
+								"regions":
+								[
+									[
+										1563,
+										1614
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1565":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#FFFFFF.png",
+								"regions":
+								[
+									[
+										1641,
+										1664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1568":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#FFFFFF.png",
+								"regions":
+								[
+									[
+										1641,
+										1664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1574":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										1772,
+										1822
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1575":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										1774,
+										1824
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1583":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(256, 256, 256, 0.1).png",
+								"regions":
+								[
+									[
+										1563,
+										1614
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1585":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(256, 256, 256, 0.1).png",
+								"regions":
+								[
+									[
+										1563,
+										1614
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1614":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(256, 256, 256, 0.1).png",
+								"regions":
+								[
+									[
+										1563,
+										1614
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1624":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#FFFFFF.png",
+								"regions":
+								[
+									[
+										1641,
+										1664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1625":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#FFFFFF.png",
+								"regions":
+								[
+									[
+										1641,
+										1664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1626":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1825,
+										1861
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1641":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#FFFFFF.png",
+								"regions":
+								[
+									[
+										1641,
+										1664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1661":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#FFFFFF.png",
+								"regions":
+								[
+									[
+										1641,
+										1664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1663":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#FFFFFF.png",
+								"regions":
+								[
+									[
+										1641,
+										1664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1668":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1823,
+										1859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1689":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1823,
+										1859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1692":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#FFFFFF.png",
+								"regions":
+								[
+									[
+										1671,
+										1694
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1696":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										1772,
+										1822
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1699":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										1772,
+										1822
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1730":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1823,
+										1859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1747":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1823,
+										1859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1750":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1823,
+										1859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1755":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										1772,
+										1822
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1756":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										1772,
+										1822
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1772":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										1772,
+										1822
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1792":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										1772,
+										1822
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1794":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										1772,
+										1822
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1806":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1823,
+										1859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1807":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1823,
+										1859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1823":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1823,
+										1859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1845":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C1C3D1.png",
+								"regions":
+								[
+									[
+										1823,
+										1859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_190":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										190,
+										210
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2201":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										2277,
+										2306
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2231":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#111.png",
+								"regions":
+								[
+									[
+										2307,
+										2321
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_224":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										307,
+										351
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_225":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										307,
+										351
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2260":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										2277,
+										2306
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2261":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										2277,
+										2306
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2276":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										2286,
+										2314
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2277":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										2277,
+										2306
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2290":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#111.png",
+								"regions":
+								[
+									[
+										2307,
+										2321
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2291":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#111.png",
+								"regions":
+								[
+									[
+										2307,
+										2321
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2297":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										2277,
+										2306
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2299":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										2277,
+										2306
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2307":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#111.png",
+								"regions":
+								[
+									[
+										2307,
+										2321
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2327":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#111.png",
+								"regions":
+								[
+									[
+										2307,
+										2321
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2329":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#111.png",
+								"regions":
+								[
+									[
+										2307,
+										2321
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_247":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										307,
+										351
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_248":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										307,
+										351
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_307":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										307,
+										351
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_374":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#D5DDE5.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_393":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#1b1e24.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_396":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#D5DDE5.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_397":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#D5DDE5.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_415":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#1b1e24.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_417":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#9ea7af.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_439":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#9ea7af.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_440":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#9ea7af.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_453":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#343a45.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_454":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#343a45.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_468":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#D5DDE5.png",
+								"regions":
+								[
+									[
+										545,
+										563
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_476":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#343a45.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_477":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#343a45.png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_487":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#1b1e24.png",
+								"regions":
+								[
+									[
+										564,
+										587
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_52":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										52,
+										79
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_528":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#D5DDE5.png",
+								"regions":
+								[
+									[
+										545,
+										563
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_53":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										52,
+										79
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_545":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#D5DDE5.png",
+								"regions":
+								[
+									[
+										545,
+										563
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_547":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#1b1e24.png",
+								"regions":
+								[
+									[
+										564,
+										587
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_548":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#343a45.png",
+								"regions":
+								[
+									[
+										625,
+										661
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_564":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#1b1e24.png",
+								"regions":
+								[
+									[
+										564,
+										587
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_565":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#D5DDE5.png",
+								"regions":
+								[
+									[
+										545,
+										563
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_571":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#9ea7af.png",
+								"regions":
+								[
+									[
+										588,
+										624
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_583":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#D5DDE5.png",
+								"regions":
+								[
+									[
+										545,
+										563
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_584":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#1b1e24.png",
+								"regions":
+								[
+									[
+										564,
+										587
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_588":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#9ea7af.png",
+								"regions":
+								[
+									[
+										588,
+										624
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_596":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_597":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_602":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#1b1e24.png",
+								"regions":
+								[
+									[
+										564,
+										587
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_608":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#343a45.png",
+								"regions":
+								[
+									[
+										625,
+										661
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_625":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#343a45.png",
+								"regions":
+								[
+									[
+										625,
+										661
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_626":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#9ea7af.png",
+								"regions":
+								[
+									[
+										588,
+										624
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_663":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#343a45.png",
+								"regions":
+								[
+									[
+										625,
+										661
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_668":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										745,
+										791
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_728":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										745,
+										791
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_745":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										745,
+										791
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_765":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										745,
+										791
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_783":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.1).png",
+								"regions":
+								[
+									[
+										745,
+										791
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_854":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										841,
+										841
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 159.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "script/directives/performance.directive.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								679,
+								679
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "style/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "script/directives/resizeTable.tmpl.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								630,
+								630
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "script/directives/resizeTable.directive.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1902,
+								1902
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 856.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 64.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 426.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 126.0
+	},
+	"output.git-push":
+	{
+		"height": 126.0
+	},
+	"output.gulp_output":
+	{
+		"height": 138.0
+	},
+	"pinned_build_system": "Packages/User/gulp.sublime-build",
+	"project": "d.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app.ts",
+				"script\\app.ts"
+			],
+			[
+				"app.scss",
+				"style\\app.scss"
+			],
+			[
+				"beastcom",
+				"script\\beast.component.ts"
+			],
+			[
+				"beast.comp",
+				"script\\beast.component.js"
+			],
+			[
+				"resizetmp",
+				"script\\directives\\resizeTable.tmpl.html"
+			],
+			[
+				"resizetabled",
+				"script\\directives\\resizeTable.directive.ts"
+			],
+			[
+				"resize",
+				"style\\directives\\resizeTable.scss"
+			],
+			[
+				"data",
+				"script\\data.json"
+			],
+			[
+				"beast.ts",
+				"script\\beast.component.ts"
+			],
+			[
+				"beast.scss",
+				"script\\beast.scss"
+			],
+			[
+				"beast",
+				"beast.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"py",
+				"config.py"
+			],
+			[
+				"setting",
+				"settings.json"
+			],
+			[
+				"main",
+				"__main__.py"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"data.js",
+				"data.js"
+			],
+			[
+				"index.ht",
+				"index.html"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"appts",
+				"script\\app.ts"
+			],
+			[
+				"beast.js",
+				"beast.js"
+			],
+			[
+				"bea",
+				"beast.css"
+			],
+			[
+				"user",
+				"classes\\userQuery.py"
+			],
+			[
+				"output",
+				"output.txt"
+			],
+			[
+				"test.py",
+				"test.py"
+			],
+			[
+				"helper",
+				"helpers.py"
+			],
+			[
+				"sharepo",
+				"classes\\sharePoint.py"
+			],
+			[
+				"jira",
+				"classes\\jira.py"
+			],
+			[
+				"set",
+				"settings.json"
+			],
+			[
+				"__init",
+				"classes\\__init__.py"
+			],
+			[
+				"__init__",
+				"__init__.py"
+			],
+			[
+				"__main",
+				"__main__.py"
+			],
+			[
+				"sche",
+				"schema.sql"
+			],
+			[
+				"settin",
+				"settings.py"
+			],
+			[
+				"pee",
+				"peebot.py"
+			],
+			[
+				"case",
+				"classes\\case.py"
+			],
+			[
+				"dyna",
+				"classes\\dynamicsbase.py"
+			],
+			[
+				"notes",
+				"classes\\notes.py"
+			],
+			[
+				"support",
+				"classes\\support.py"
+			],
+			[
+				"dynam",
+				"classes\\dynamicsbase.py"
+			],
+			[
+				"base",
+				"classes\\base.py"
+			],
+			[
+				"req",
+				"requirements.txt"
+			],
+			[
+				"use",
+				"classes\\userQuery.py"
+			],
+			[
+				"not",
+				"classes\\notes.py"
+			],
+			[
+				"cas",
+				"classes\\case.py"
+			],
+			[
+				"help",
+				"helpers.py"
+			],
+			[
+				"drei",
+				"classes\\driver.py"
+			],
+			[
+				"__in",
+				"classes\\__init__.py"
+			],
+			[
+				"__i",
+				"__init__.py"
+			],
+			[
+				"sett",
+				"settings.json"
+			],
+			[
+				"note",
+				"classes\\notes.py"
+			],
+			[
+				"dri",
+				"classes\\driver.py"
+			],
+			[
+				"init",
+				"classes\\__init__.py"
+			],
+			[
+				"ini",
+				"__init__.py"
+			],
+			[
+				"settings.json",
+				"settings.json"
+			],
+			[
+				"last-",
+				"API\\common\\last-state.js"
+			],
+			[
+				"mongo-con",
+				"API\\segmentations\\mongo-connection.js"
+			],
+			[
+				"app.module.",
+				"UI\\src\\app.module.ts"
+			],
+			[
+				"orm.js",
+				"API\\common\\orm.js"
+			],
+			[
+				"mong-cn",
+				"API\\segmentations\\mongo-connection.js"
+			],
+			[
+				"gulf",
+				"UI\\gulpfile.js"
+			],
+			[
+				"naviga",
+				"UI\\app\\navigation.html"
+			],
+			[
+				"navigation",
+				"UI\\src\\navigation.jade"
+			],
+			[
+				"navbar.less",
+				"UI\\lib\\bootstrap\\less\\navbar.less"
+			],
+			[
+				"index.html",
+				"UI\\app\\index.html"
+			],
+			[
+				"patch",
+				"app\\views\\patches.blade.php"
+			],
+			[
+				"template.blade",
+				"app\\views\\template.blade.php"
+			],
+			[
+				"template",
+				"C:\\Users\\steve.hamrick\\Desktop\\GloryOfNephilim\\app\\views\\template.blade.php"
+			],
+			[
+				"app.scs",
+				"GloryOfNephilim\\public\\source\\app.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 526.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 
-	var app = angular.module('mainApp', ['ngMaterial', 'ngMessages', 'ngAnimate']);
+	var app = angular.module('mainApp', ['ngMaterial', 'ngMessages', 'ngAnimate', 'ngSanitize']);
 
 	app.directive("sticky", function($window: ng.IWindowService){
 		return {

@@ -1,6 +1,10 @@
-.material-icons.ng-hide.desc {
+.material-icons.ng-hide {
 	visibility: hidden;
-	display: block !important;
+	display: inline !important;
+}
+
+.material-icons {
+	vertical-align: middle;
 }
 
 .table {
@@ -39,9 +43,15 @@
 				font-weight: 100;
 				padding:24px;
 				text-align:center;
+				margin:auto;
 				text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 				vertical-align:middle;
 				cursor: default;
+
+				div {
+					text-align: center;
+					display: block;
+				}
 
 				&.text-left {
 					text-align: left;
@@ -104,12 +114,13 @@
 			td {
 				background:#FFFFFF;
 				padding:20px;
-				text-align:left;
+				text-align:center;
+				margin:auto;
 				vertical-align:middle;
 				font-weight:300;
 				font-size:18px;
 				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-				border-right: 1px solid #C1C3D1;
+				border-right: 1px solid #8f9191;
 				height:90px;
 			}
 			
