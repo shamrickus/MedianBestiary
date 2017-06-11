@@ -23,7 +23,7 @@
 		border-collapse: collapse;
 		overflow: scroll;
 		tr.head {
-			&.stuck {
+			&.sticky {
 				position: fixed;
 				top: 0;
 				width: 100%;
@@ -95,6 +95,12 @@
 
 		tr.body {
 
+			&:nth-child(even) {
+				td {
+					background: #ccc;
+				}
+			}
+
 			td {
 				background:#FFFFFF;
 				padding:20px;
@@ -105,6 +111,15 @@
 				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
 				border-right: 1px solid #C1C3D1;
 				height:90px;
+			}
+			
+			td div {
+				img, span {
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					text-align: center;
+				}
 			}
 
 			td:last-child {
