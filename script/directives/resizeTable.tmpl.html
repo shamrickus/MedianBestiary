@@ -4,10 +4,10 @@
 	</div>
 	<table class="table-data" ng-cloak>
 		<thead>
-			<tr class="head" id="tableHeader" sticky>
-				<th ng-repeat="header in tableData" class="headerRow noselect" ng-mouseenter="options=true" ng-mouseleave="options=false" column-id="{{$index}}" ng-click="swapOrder($index)" ng-style="getWidth($index)">
-					<div layout="row" ng-if="header.display == true">
-						{{header.header}}
+			<tr class="head" id="tableHeader">
+				<th ng-repeat="header in tableData" class="headerRow noselect" ng-if="header.display == true" ng-mouseenter="options=true" ng-mouseleave="options=false" column-id="{{$index}}" ng-click="swapOrder($index)" ng-style="getWidth($index)">
+					<div layout="row">
+						<span ng-bind="header.friendly ? header.firendly : header.header"></span>
 						<i class="material-icons desc" ng-cloak ng-if="sortIndex == $index || options">{{!sortDesc || (options && sortIndex != $index) ? 'keyboard_arrow_down' : 'keyboard_arrow_up'}}</i>
 						<div class="rightHandle" width-slider current-width="header.width" ng-click="stopProp($event)" ng-if="!$last"></div>
 					</div>
@@ -16,7 +16,14 @@
 		</thead>
 		<tbody>
 			<tr ng-repeat="value in tableEntry | limitTo:upperPage:lowerPage track by $index" class="body">
-				<td ng-repeat="val in getEntry(value) track by $index" ng-bind="val" ng-style="getWidth($index)"></td>
+				<td ng-repeat="val in getEntry(value) track by $index" ng-if="tableData[$index].display == true" ng-style="getWidth($index)">
+					<div ng-if="checkImage(val)">
+						<img  ng-src="{{getLink(val)}}">
+						<br />
+						<span ng-bind="getbbCode($parent.$index)"></span>
+					</div>
+					<span ng-if="!checkImage(val)" ng-bind="val"></span>
+				</td>
 			</tr>
 		</tbody>
 	</table>

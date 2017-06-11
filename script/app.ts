@@ -12,7 +12,15 @@
 					$win.bind("scroll", function(e) {
 						var top = element.scrollTop() + element.height();
 						var winTop = $win.scrollTop();
-						if(top <= winTop) {
+						if(top <= winTop && !element.hasClass('sticky')) {
+							let rowString = "<tr>";
+							for(var i = 0; i < element[0].children.length; ++i) {
+								rowString += "<td style='width:";
+								rowString += $(element[0].children[i]).width();
+								rowString += "px !important;'></td>";
+							}
+							rowString += "</tr>";
+
 							element.addClass("sticky");
 						}
 						else {
@@ -69,7 +77,7 @@
 						$win.bind("resize", recheckPositions);
 					}
 
-					function init(): {} {
+			dd		function init(): {} {
 						return {
 							element: element,
 							isStuck: false,

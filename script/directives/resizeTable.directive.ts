@@ -97,7 +97,7 @@ namespace directive.resizeTable {
 				}
 
 				scope.updatePages = function() {
-					if(scope.pageCount == "All") {
+					if(scope.pageCount == "All") { 
 						scope.lowerPage = 1;
 						scope.upperPage = scope.tableEntry.length;
 					}
@@ -106,6 +106,18 @@ namespace directive.resizeTable {
 						scope.upperPage = scope.lowerPage + scope.pageCount;
 						if(scope.lowerPage == 0) scope.lowerPage = 1;
 					}
+				}
+
+				scope.getbbCode = function(index) {
+					return "[mon]" + scope.tableEntry[index].Name + "[/mon]";
+				}
+
+				scope.checkImage = function(val: string) {
+					return val.indexOf("\\") > -1;
+				}
+
+				scope.getLink = function(val: string) {
+					return val.replace("monsters", "images");
 				}
 
 				scope.hasPreviousPage = function() {
@@ -151,13 +163,16 @@ namespace directive.resizeTable {
 			return {
 				restrict: 'A',
 				scope: {
-					currentWidth: '=currentWidth'
+					currentWidth: '=currentWidth',
+					minWidth: '@?'
 				},
 				link: function(scope: ng.IScope, element: ng.IAugmentedJQuery, attrs: ng.IAttributes, controller: any){
 					let self = this;
 
 					element.on('mousedown', function(e) {
 						e.stopPropagation();
+
+						if(scope.minWidth == undefined) scope.minWidth = 95;
 
 						self.down = true;
 						self.oldX = e.pageX;
@@ -173,6 +188,7 @@ namespace directive.resizeTable {
 						if(self.down) $timeout(mousemove, 16);
 						if(self.x == null) return;
 						var delta = self.x - self.oldX;
+						if(scope.currentWidth + delta <= scope.minWidth) return;
 						self.oldX = self.x;
 						scope.currentWidth += delta;
 					}

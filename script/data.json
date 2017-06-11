@@ -67,6 +67,7 @@
         {
             "display": true,
             "header": "pictureName",
+            "friendly": "Picture",
             "sortable": true,
             "searchable": true,
             "order": 1,
