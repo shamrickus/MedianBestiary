@@ -6,7 +6,8 @@
             "sortable": true,
             "searchable": true,
             "resizable": true,
-            "order": 0
+            "order": 0,
+            "width": 100
         },
         {
             "display": true,
@@ -14,7 +15,8 @@
             "header": "Immunity",
             "sortable": true,
             "searchable": true,
-            "resizable": true
+            "resizable": true,
+            "width": 125
         },
         {
             "display": true,
@@ -22,7 +24,8 @@
             "sortable": true,
             "searchable": true,
             "order": 2,
-            "resizable": true
+            "resizable": true,
+            "width": 200
         },
         {
             "display": true,
@@ -30,7 +33,8 @@
             "sortable": true,
             "searchable": true,
             "order": 3,
-            "resizable": true
+            "resizable": true,
+            "width": 150
         },
         {
             "order": 5,
@@ -38,7 +42,8 @@
             "header": "Evade",
             "sortable": true,
             "searchable": true,
-            "resizable": true
+            "resizable": true,
+            "width": 75
         },
         {
             "display": true,
@@ -54,7 +59,8 @@
             "sortable": true,
             "searchable": true,
             "order": 7,
-            "resizable": true
+            "resizable": true,
+            "width": 75
         },
         {
             "display": false,
@@ -71,7 +77,8 @@
             "sortable": true,
             "searchable": true,
             "order": 1,
-            "resizable": true
+            "resizable": true,
+            "width": 220
         }
     ],
     [

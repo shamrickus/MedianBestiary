@@ -1,7 +1,21 @@
 <div class="table" layout="column">
-	<div class="table-header">
-		<span class="title">{{headerText}}</span>
+	<div class="navbar">
+		<div class="brand">{{headerText}}</div>
+		<div class="pagination" layout="row">
+			<p>{{lowerPage}} - {{upperPage}} of {{tableEntry.length}}</p>
+			<div class="page-controls">
+				<i class="material-icons" ng-disabled="!hasPreviousPage()"	ng-click="previousPage()">keyboard_arrow_left</i>
+				<i class="material-icons" ng-disabled="!hasNextPage()"		ng-click="nextPage()">keyboard_arrow_right</i>
+			</div>
+			<md-input-contianer layout="row">
+				<label>Display</label>
+				<md-select ng-model="pageCount" ng-change="updatePages()">
+					<md-option ng-repeat="page in pages" ng-value="page">{{page}}</md-option>
+				</md-select>
+			</md-input-contianer>
+		</div>
 	</div>
+	<div class="table-header"></div>
 	<table class="table-data" ng-cloak>
 		<thead>
 			<tr class="head" id="tableHeader">
@@ -27,18 +41,5 @@
 		</tbody>
 	</table>
 	<div class="table-footer">
-		<div class="pagination" layout="row">
-			<md-input-contianer>
-				<label>Display</label>
-				<md-select ng-model="pageCount" ng-change="updatePages()">
-					<md-option ng-repeat="page in pages" ng-value="page">{{page}}</md-option>
-				</md-select>
-			</md-input-contianer>
-			<p>{{lowerPage}} - {{upperPage}} of {{tableEntry.length}}</p>
-			<div class="page-controls">
-				<i class="material-icons" ng-disabled="!hasPreviousPage()"	ng-click="previousPage()">keyboard_arrow_left</i>
-				<i class="material-icons" ng-disabled="!hasNextPage()"		ng-click="nextPage()">keyboard_arrow_right</i>
-			</div>
-		</div>
 	</div>
 </div>

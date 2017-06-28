@@ -39,7 +39,7 @@ namespace beast {
 						searchable: headerData.searchable,
 						display: headerData.display,
 						order: headerData.order,
-						width: 250
+						width: headerData.width == null ? 250 : headerData.width
 					});
 				}
 				for(var j = 0; j< data[1].length; ++j) {

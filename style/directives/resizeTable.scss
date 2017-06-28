@@ -7,14 +7,64 @@
 	vertical-align: middle;
 }
 
+$mainColor: hsl(220, 25%, 30%);
+$auxColor: hsl(220, 25%, 80%);
+$top: 50px;
+
+md-card {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 .table {
-	.table-header {
-		span.title {
-			font-size: 48px;
+
+	div.navbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		background: white;
+		width: 100%;
+		z-index: 1;
+		height: $top;
+		border-bottom: 1px solid #8f9191;
+
+		div.brand {
+			float: left;
+			font-size: 45px;
+		}
+
+		div.pagination {
+			float: right;
+			height: 100%;
+
+			label, md-select {
+				margin-top: auto;
+				margin-bottom: auto;
+				margin-right: 8px;
+			}
+
+			p, div.page-controls {
+				margin-right: 5px;
+			}
+
+			i {
+				cursor: pointer;
+			}
+
+			div.page-controls {
+				margin-top: auto;
+				margin-bottom: auto;
+			}
 		}
 	}
 
+	.table-header {
+		height: $top;
+	}
+
 	.table-data {
+		margin-top: $top;
 		table-layout: fixed;
 		background: white;
 		border-radius:3px;
@@ -36,9 +86,8 @@
 			th{
 				position: relative;
 				color:#D5DDE5;
-				background:#1b1e24;
-				border-bottom:4px solid #9ea7af;
-				border-right: 1px solid #343a45;
+				border-bottom:4px solid $auxColor;
+				border-right: 1px solid black;
 				font-size:23px;
 				font-weight: 100;
 				padding:24px;
@@ -47,6 +96,7 @@
 				text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 				vertical-align:middle;
 				cursor: default;
+				background-color: $mainColor;
 
 				div {
 					text-align: center;
@@ -107,7 +157,7 @@
 
 			&:nth-child(even) {
 				td {
-					background: #ccc;
+					background: $auxColor;
 				}
 			}
 

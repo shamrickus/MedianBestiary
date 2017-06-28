@@ -97,6 +97,7 @@ namespace directive.resizeTable {
 				}
 
 				scope.updatePages = function() {
+					$("html, body").animate({ scrollTop: 0}, 'fast');
 					if(scope.pageCount == "All") { 
 						scope.lowerPage = 1;
 						scope.upperPage = scope.tableEntry.length;
