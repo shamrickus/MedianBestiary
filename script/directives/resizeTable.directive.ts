@@ -31,6 +31,7 @@ namespace directive.resizeTable {
 		link: any;
 		sortIndex: number = 0;
 		sortDesc: boolean = false;
+		search: string;
 
 		constructor() {
 			let self = this;
@@ -45,12 +46,22 @@ namespace directive.resizeTable {
 				scope.pageNumber = 0;
 				scope.lowerPage = 1;
 				scope.upperPage = scope.pageCount;
+				scope.search = "":
 
 				scope.getIndexFromKey = function(key) {
 					for(var j = 0; j < scope.tableData.length; ++j) {
 						var data = scope.tableData[j];
 						if(data.header == key) return j;
 					}
+				}
+
+				scope.filterData = function(row: IResizeTableEntry) {
+					var keys = Object.keys(row);
+					for(var i = 0; i < keys.length; ++i) {
+						var key = keys[i];
+						if(row[key].indexOf(scope.search) > -1) return true;
+					}
+					return false;
 				}
 
 				scope.getEntry = function(value) {

@@ -14,7 +14,7 @@ function sass() {
 
 	return gulp.src(sourceFiles, { base: "." })
 		.pipe(gulpSass({ outputStyle: "compressed" }).on('error', gulpSass.logError))
-		.pipe(gulp.dest("."));
+		.pipe(gulp.dest("."))
 		.pipe(livereload());
 }
 

@@ -28,10 +28,10 @@ namespace beast {
 		loadData() {
 			let self = this;
 			this.loading = true;
-			this.$http.get("script/data.json").then(function(data: any){
-				data = data.data;
-				for(var i = 0; i < data[0].length; ++i) {
-					var headerData = data[0][i];
+			this.$http.get("script/data.json").then(function(entries: any){
+				entries = entries.data;
+				for(var i = 0; i < entries[0].length; ++i) {
+					var headerData = entries[0][i];
 					self.tableData.push(<directive.resizeTable.IResizeTableData> {
 						header: headerData.header,
 						resizable: headerData.resizable,
@@ -42,8 +42,8 @@ namespace beast {
 						width: headerData.width == null ? 250 : headerData.width
 					});
 				}
-				for(var j = 0; j< data[1].length; ++j) {
-					var td = data[1][j];
+				for(var j = 0; j< entries[1].length; ++j) {
+					var td = entries[1][j];
 					self.tableEntry.push(td);
 				}
 

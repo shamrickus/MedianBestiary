@@ -1,11 +1,15 @@
 <div class="table" layout="column">
 	<div class="navbar">
 		<div class="brand">{{headerText}}</div>
+		<md-input-container>
+			<label>Search</label>
+			<input ng-model="search">
+		</md-input-container>
 		<div class="pagination" layout="row">
 			<p>{{lowerPage}} - {{upperPage}} of {{tableEntry.length}}</p>
 			<div class="page-controls">
-				<i class="material-icons" ng-disabled="!hasPreviousPage()"	ng-click="previousPage()">keyboard_arrow_left</i>
-				<i class="material-icons" ng-disabled="!hasNextPage()"		ng-click="nextPage()">keyboard_arrow_right</i>
+				<i class="material-icons" ng-disabled="!hasPreviousPage()" ng-click="previousPage()">keyboard_arrow_left</i>
+				<i class="material-icons" ng-disabled="!hasNextPage()" ng-click="nextPage()">keyboard_arrow_right</i>
 			</div>
 			<md-input-contianer layout="row">
 				<label>Display</label>
@@ -29,7 +33,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr ng-repeat="value in tableEntry | limitTo:upperPage:lowerPage track by $index" class="body">
+			<tr ng-repeat="value in tableEntry | filter: filterData | limitTo:upperPage:lowerPage track by $index" class="body">
 				<td ng-repeat="val in getEntry(value) track by $index" ng-if="tableData[$index].display == true" ng-style="getWidth($index)">
 					<div ng-if="checkImage(val)">
 						<img  ng-src="{{getLink(val)}}">
