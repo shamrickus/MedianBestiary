@@ -46,7 +46,7 @@ namespace directive.resizeTable {
 				scope.pageNumber = 0;
 				scope.lowerPage = 1;
 				scope.upperPage = scope.pageCount;
-				scope.search = "":
+				scope.search = "";
 
 				scope.getIndexFromKey = function(key) {
 					for(var j = 0; j < scope.tableData.length; ++j) {
