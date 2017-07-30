@@ -1,1 +1,0 @@
-{"C:\\Users\\crusherexe\\Desktop\\dev\\diablo\\gulpfile.js":{"sha1":"ad2f95fa1cfe6fe6264c9e60fc5b1710bd6364bb","tasks":{"sass":{"name":"sass","dependencies":""},"tsc":{"name":"tsc","dependencies":""},"default":{"name":"default","dependencies":"sass tsc"}}}}
